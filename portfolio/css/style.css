@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    font-family: 'Lora', serif;
+}
+
+
+
+.bannerbgimage {
+    height: 100vh;
+    background:url("/images/banner image.jpg") ;
+    background-size: cover;
+    position: relative;
+}
+
+.bannertext {
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bannerTitle{
+    font-size: 4rem;
+}
+
+.bannerdescription{
+    font-size: 2rem;
+}
+
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color:rgb(137, 137, 137) ;
+    border: 2px solid rgb(74, 66, 66);
+}
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+
+}
+.img-fluid:hover{
+    border: 2px solid rgb(74, 66, 66);
+
+}
+
+.card-img-top{
+    height: 100vh;
+}
